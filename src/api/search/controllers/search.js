@@ -43,6 +43,21 @@ module.exports = {
                   $endsWith: q,
                 },
               },
+              {
+                type: {
+                  $containsi: q,
+                },
+              },
+              {
+                type: {
+                  $startsWith: q,
+                },
+              },
+              {
+                type: {
+                  $endsWith: q,
+                },
+              },
             ],
           },
           populate: {

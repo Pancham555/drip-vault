@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-website",
+  "name": "back-end",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -16,6 +16,8 @@
     "@strapi/provider-upload-cloudinary": "^4.10.6",
     "@strapi/strapi": "4.10.5",
     "better-sqlite3": "8.0.1",
+    "pg": "^8.11.0",
+    "pg-connection-string": "^2.6.0",
     "razorpay": "^2.8.6"
   },
   "author": {
